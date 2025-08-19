@@ -31,7 +31,8 @@ A modern, feature-rich Neovim configuration optimized for JavaScript and Python 
 - Cross-platform clipboard support
 
 ## 📁 Project Structure
- 
+
+```
 psychic-system/
 ├── init.lua                # Main configuration entry point
 ├── lazy-lock.json          # Plugin version lockfile
@@ -49,7 +50,7 @@ psychic-system/
 │       ├── telescope.lua       # Fuzzy finder
 │       └── treesitter.lua      # Syntax highlighting
 └── .luarc.json             # Lua language server configuration
-
+```
 ## 🚀 Installation
 
 ### Prerequisites
