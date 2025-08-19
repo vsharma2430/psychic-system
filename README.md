@@ -33,22 +33,22 @@ A modern, feature-rich Neovim configuration optimized for JavaScript and Python 
 ## 📁 Project Structure
  
 psychic-system/
-├── init.lua # Main configuration entry point
-├── lazy-lock.json # Plugin version lockfile
+├── init.lua                # Main configuration entry point
+├── lazy-lock.json          # Plugin version lockfile
 ├── lua/
-│ ├── vim-options.lua # Vim options and settings
-│ └── plugins/ # Plugin configurations
-│ ├── alpha-nvim.lua # Dashboard configuration
-│ ├── catppuccin.lua # Color scheme
-│ ├── lsp-config.lua # LSP setup
-│ ├── lualine.lua # Status line
-│ ├── neo-tree.lua # File explorer
-│ ├── none-ls.lua # Code formatting
-│ ├── nvim-cmp.lua # Auto-completion
-│ ├── onedarkpro.lua # Alternative theme
-│ ├── telescope.lua # Fuzzy finder
-│ └── treesitter.lua # Syntax highlighting
-└── .luarc.json # Lua language server configuration
+│   ├── vim-options.lua     # Vim options and settings
+│   └── plugins/            # Plugin configurations
+│       ├── alpha-nvim.lua      # Dashboard configuration
+│       ├── catppuccin.lua      # Color scheme
+│       ├── lsp-config.lua      # LSP setup
+│       ├── lualine.lua         # Status line
+│       ├── neo-tree.lua        # File explorer
+│       ├── none-ls.lua         # Code formatting
+│       ├── nvim-cmp.lua        # Auto-completion
+│       ├── onedarkpro.lua      # Alternative theme
+│       ├── telescope.lua       # Fuzzy finder
+│       └── treesitter.lua      # Syntax highlighting
+└── .luarc.json             # Lua language server configuration
 
 ## 🚀 Installation
 
