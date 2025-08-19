@@ -62,19 +62,36 @@ psychic-system/
 
 ### Quick Setup
 
+#### Step-by-Step Installation
+
 1. **Backup existing configuration** (if any):
+
+```bash
 mv ~/.config/nvim ~/.config/nvim.backup
+```
 
 2. **Clone this repository**:
+
+```bash
 git clone https://github.com/vsharma2430/psychic-system.git ~/.config/nvim
+```
 
 3. **Launch Neovim**:
 
-4. **Wait for plugins to install**: The configuration uses lazy.nvim for plugin management. Plugins will be automatically installed on first launch.
+```bash
+nvim
+```
+4. **Wait for plugins to install**:
+The configuration uses `lazy.nvim` for plugin management. Plugins will be automatically installed on first launch.
 
-5. **Install Language Servers**: Open Neovim and run:
+5. **Install Language Servers**:
+Open Neovim and run:
+
+```vim
 :MasonInstallAll
+```
 
+That's it! Your Neovim configuration should now be ready for JavaScript and Python development.
 
 ## 🎯 Key Bindings
 
