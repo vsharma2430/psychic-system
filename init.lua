@@ -5,6 +5,7 @@ vim.opt.softtabstop = 2
 vim.opt.shiftwidth = 2
 
 vim.g.mapleader = " "
+vim.opt.relativenumber = true
 
 -- Bootstrap lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
@@ -36,4 +37,3 @@ vim.keymap.set({'n', 'v'}, '<leader>D', '"+D') -- delete line
 -- Paste from system clipboard
 vim.keymap.set('n', '<leader>p', '"+p')  -- paste after cursor
 vim.keymap.set('n', '<leader>P', '"+P')  -- paste before cursor
-
